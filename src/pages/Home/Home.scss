@@ -1,0 +1,54 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 30px;
+  position: relative;
+  width: 100%;
+
+  .home-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    max-width: 600px;
+    left: 0;
+
+    h1 {
+      font-size: 30px;
+      font-weight: 400;
+    }
+    span {
+      font-size: 35px;
+    }
+    p {
+      font-size: 25px;
+      font-weight: 300;
+    }
+
+    .social-media-account {
+      display: flex;
+      // justify-content: flex-end;
+      gap: 13px;
+      margin-top: 20px;
+    }
+  }
+  .image {
+    img {
+      border-radius: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 945px) {
+  .home {
+    flex-wrap: wrap;
+  }
+  .image {
+    width: 300px;
+    img {
+      width: 100%;
+    }
+  }
+}

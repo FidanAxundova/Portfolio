@@ -1,0 +1,78 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 30px;
+
+  .about-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 700px;
+
+    .first-in {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-size: 20px;
+        font-weight: 400;
+
+        span {
+          color: #f76e62;
+        }
+      }
+      h2 {
+        font-size: 20px;
+        font-weight: 400;
+        align-self: flex-end;
+      }
+    }
+    .skills {
+      h2 {
+        font-size: 18px;
+        font-weight: 90px;
+
+        text-decoration: underline;
+      }
+    }
+    .icons {
+      display: flex;
+      font-size: 30px;
+      gap: 20px;
+    }
+
+    .about-me {
+      h3 {
+        font-size: 20px;
+        font-weight: 100;
+      }
+    }
+    .certification-container {
+      h4 {
+        font-size: 18px;
+        font-weight: 90px;
+
+        text-decoration: underline;
+      }
+      .certifications {
+        font-size: 15px;
+        font-weight: 70px;
+      }
+    }
+  }
+
+  .about-img {
+    img {
+      width: 400px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1156px) {
+  .about-container {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,27 @@
+.header-container {
+  padding: 33px;
+}
+
+.information {
+  .info-in {
+    background-color: #9a868657;
+    padding: 20px 0px;
+    border-radius: 30px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto;
+    a {
+      font-size: 2.5rem;
+      color: white;
+    }
+  }
+
+  .contact-part {
+    display: flex;
+    float: right;
+    gap: 20px;
+    cursor: pointer;
+  }
+}
