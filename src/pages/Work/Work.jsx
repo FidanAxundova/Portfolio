@@ -5,9 +5,9 @@ import { FaCss3 } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
-import hermes from "../../assets/image/hermes.jpg";
-import pradaImg from "../../assets/image/pradaImg.jpg";
-import projectImg from "../../assets/image/projectImg.jpg";
+import hermes from "../../assets/image/hermes.jpeg";
+import pradaImg from "../../assets/image/pradaImg.jpeg";
+import projectImg from "../../assets/image/projectImg.jpeg";
 import { ReactTyped } from "react-typed";
 
 const Work = () => {
@@ -61,10 +61,7 @@ const Work = () => {
         </div>
       </div>
       <div className="works-img">
-        <a
-          href="https://luxuria-label.vercel.app"
-          target="-blank"
-        >
+        <a href="https://luxuria-label.vercel.app" target="-blank">
           <img src={projectImg} alt="project" />
         </a>
 
